@@ -77,3 +77,15 @@ body {
 .ps_subtitle {
     color: #727272;
 }
+
+/* It Takes Two Game Section */
+
+.game_jumbo {
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.game_jumbo img {
+    width: 50%;
+}
