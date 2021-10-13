@@ -1,0 +1,13 @@
+/* Top Header */
+.top_header {
+    background: black;
+}
+
+.top_header img {
+    max-width: 15%;
+}
+
+/* Main Menu */
+.main_menu {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
