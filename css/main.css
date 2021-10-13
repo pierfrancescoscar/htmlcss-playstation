@@ -89,3 +89,18 @@ body {
 .game_jumbo img {
     width: 50%;
 }
+
+/* New Games Section */
+
+.new_games {
+    background-color: #1f1f1f;
+}
+
+.game_heading {
+    color: white;
+}
+
+.game_title {
+    color: white;
+    font-size: 12px;
+}
