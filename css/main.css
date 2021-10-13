@@ -1,13 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
 /* Top Header */
 .top_header {
     background: black;
 }
 
 .top_header img {
-    max-width: 15%;
+    width: 80px;
 }
 
 /* Main Menu */
 .main_menu {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    font-family: Helvetica, sans-serif;
+}
+
+/* Hero */
+.hero {
+    background-image: url('../img/jumbo-bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    
+}
+
+.hero img {
+    max-width: 50%;
+}
+
+.hero_content h1,p {
+    color: white;
+    
 }
