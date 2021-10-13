@@ -4,7 +4,6 @@ body {
 
 /* Utility */
 .ps_orange_button {
-    
     background-color: #cd3d0f;
     border: none;
     color: white;
@@ -13,6 +12,10 @@ body {
     text-decoration: none;
     cursor: pointer;
     border-radius: 18px;
+}
+
+.box_rounded {
+    border-radius: 15px;
 }
 
 /* Top Header */
