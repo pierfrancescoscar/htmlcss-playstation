@@ -18,6 +18,10 @@ body {
     border-radius: 15px;
 }
 
+.mt-100 {
+    margin-top: 100px;
+}
+
 /* Top Header */
 .top_header {
     background: black;
@@ -39,7 +43,6 @@ body {
     background-size: cover;
     background-position: center;
     height: 500px;
-    
 }
 
 .hero img {
@@ -49,4 +52,15 @@ body {
 .hero_content h1,p {
     color: white;
     
+}
+
+/* Playstation Presentation Section */
+
+.ps_pre_title {
+    font-size: 12px;
+    color: #0072ce;
+}
+
+.ps_subtitle {
+    color: #727272;
 }
