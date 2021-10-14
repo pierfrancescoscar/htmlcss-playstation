@@ -27,6 +27,18 @@ body {
     font-size: 14px;
 }
 
+.ps_white_button {
+    background-color: white;
+    border: none;
+    color: #2d64e6;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
 .box_rounded {
     border-radius: 15px;
 }
@@ -103,4 +115,14 @@ body {
 .game_title {
     color: white;
     font-size: 12px;
+}
+
+/* PlayStation Plus Section */
+
+.ps_plus_banner {
+    background: #bebcbb;
+}
+
+.ps_plus_logo {
+    width: 50%;
 }
