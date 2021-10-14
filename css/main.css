@@ -39,6 +39,18 @@ body {
     font-size: 14px;
 }
 
+.ps_whiteblack_button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 14px; 
+}
+
 .box_rounded {
     border-radius: 15px;
 }
@@ -126,3 +138,18 @@ body {
 .ps_plus_logo {
     width: 50%;
 }
+
+/* PlayStation Now Section */
+
+.ps_now_banner {
+    background: #161c3b;
+}
+
+.ps_now_logo {
+    width: 50%;
+}
+
+.ps_now_banner span {
+    color: white;
+}
+
