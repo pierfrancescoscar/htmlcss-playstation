@@ -82,7 +82,7 @@ body {
 }
 
 .ps_white_button:hover {
-    background-color: white;
+    pointer-events: none;
 
 }
 
@@ -91,7 +91,7 @@ body {
 }
 
 .ps_whiteblack_button:hover {
-    background: white;
+    pointer-events: none;
 }
 
 
@@ -104,6 +104,7 @@ header {
     left: 0;
     top: 0;
     background: white;
+    z-index: 1;
 }
 
 /* Top Header */
@@ -283,6 +284,12 @@ header {
 
 .ps_now_banner span {
     color: white;
+}
+
+/* Social Media Buttons Section */
+
+.social_media_buttons {
+    max-width: 720px;
 }
 
 /* Footer */
