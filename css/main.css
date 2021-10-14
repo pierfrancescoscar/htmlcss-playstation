@@ -145,6 +145,61 @@ header {
     color: #727272;
 }
 
+/* PlayStation 5 Products */
+
+.ps_console {
+    opacity: 0.50;
+}
+
+.ps_console:hover {
+    opacity: 1;
+}
+
+.ps_joypad {
+    opacity: 0.50;
+}
+
+.ps_joypad:hover {
+    opacity: 1;
+}
+
+.ps_headset {
+    opacity: 0.50;
+}
+
+.ps_headset:hover {
+    opacity: 1;
+}
+
+.ps_remote {
+    opacity: 0.50;
+}
+
+.ps_remote:hover {
+    opacity: 1;
+}
+
+.ps_camera {
+    opacity: 0.50;
+}
+
+.ps_camera:hover {
+    opacity: 1;
+}
+
+.ps5:hover,
+.joypad:hover,
+.headset:hover,
+.remote:hover,
+.camera:hover {
+    
+    border-bottom: 2px solid #4d7bd3;
+
+}
+
+
+
+
 /* It Takes Two Game Section */
 
 .game_jumbo {
