@@ -71,6 +71,31 @@ body {
     margin-top: 100px;
 }
 
+/* General Buttons Settings */
+
+.ps_orange_button:hover {
+    background-color: #cd3d0f;
+}
+
+.ps_blue_button:hover {
+    background: #2d64e7;
+}
+
+.ps_white_button:hover {
+    background-color: white;
+
+}
+
+.ps_black_button:hover {
+    background: #3e3e3e;
+}
+
+.ps_whiteblack_button:hover {
+    background: white;
+}
+
+
+
 /* Header */
 
 header {
@@ -136,6 +161,7 @@ header {
 
 .main_games img {
     padding: 5px;
+    cursor: pointer;
 }
 
 .main_games img:hover {
