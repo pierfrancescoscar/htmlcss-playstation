@@ -119,8 +119,6 @@ header {
     
 }
 
-
-
 .hero img {
     max-width: 50%;
 }
@@ -132,6 +130,16 @@ header {
 
 .search_icon {
     width: 50%;
+}
+
+/* Main Games Section  */
+
+.main_games img {
+    padding: 5px;
+}
+
+.main_games img:hover {
+    border: 1px solid #0072ce;
 }
 
 /* Playstation Presentation Section */
