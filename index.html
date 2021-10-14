@@ -26,7 +26,7 @@
         <!-- Main Menu -->
         <section class="container-fluid">
             <div class="row main_menu">
-                <div class="col-xs-12">
+                <div class="col-12">
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <a class="navbar-brand" href="#">
                             <img src="./img/play_logo.svg" alt="playstation-logo">
@@ -35,21 +35,73 @@
                           <span class="navbar-toggler-icon"></span>
                         </button>
                       
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="left_main_menu collapse navbar-collapse" id="navbarSupportedContent">
                           <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                              <a class="nav-link" href="#">Home</a>
+                              <a class="nav-link" href="#">Giochi</a>
                             </li>
+
+                            <i class="menu_arrow d-flex align-items-center fas fa-chevron-down"></i>
+
                             <li class="nav-item">
-                              <a class="nav-link" href="#">Link</a>
+                              <a class="nav-link" href="#">Hardware</a>
                             </li>
-                            <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Dropdown
-                              </a>
+
+                            <i class="menu_arrow d-flex align-items-center fas fa-chevron-down"></i>
+
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Servizi</a>
                             </li>
+
+                            <i class="menu_arrow d-flex align-items-center fas fa-chevron-down"></i>
+
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Novità</a>
+                            </li>
+
+                            <i class="menu_arrow d-flex align-items-center fas fa-chevron-down"></i>
+
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Fai acquisti</a>
+                            </li>
+
+                            <i class="menu_arrow d-flex align-items-center fas fa-chevron-down"></i>
+
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Supporto</a>
+                            </li>
+
+                            <i class="menu_arrow d-flex align-items-center fas fa-chevron-down"></i>
+
                           </ul>
                         </div>
+
+                        <div class="right_main_menu justify-content-end collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto align-items-center">
+
+                              <li class="nav-item active">
+
+                                <a class="nav-link" href="#">My PlayStation</a>
+
+                              </li>
+
+                              <li class="nav-item">
+
+                                <a class="nav-link" href="#">
+                                  <button class="ps_black_button">Accedi</button>
+                                </a>
+
+                              </li>
+                              <li class="nav-item">
+                                  
+                                <a class="nav-link" href="#">
+                                 <img class="search_icon" src="./img/lens.svg" alt="search-menu">
+
+                                </a>
+                            </li>
+                            </ul>
+                          </div>
+
                       </nav>
                 </div>
             </div>
@@ -60,7 +112,7 @@
         <!-- Hero -->
     <section class="hero container-fluid d-flex align-content-end flex-wrap">
 
-            <div class="hero_content col-12 p-2">
+            <div class="hero_content col-12 col-lg-4 p-2">
 
                <img class="mb-4" src="./img/returnal-hero-banner-logo.png" alt="returnal-logo">
 
@@ -75,24 +127,24 @@
         <!-- Main Games -->
     <section class="container mt-4">
         <div class="row">
-            <div class="col-6 col-sm-4">
+            <div class="col-6 col-sm-4 col-lg-2">
                 <img class="img-fluid mb-3 box_rounded" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="returnal-thumb">
             </div>
         
-             <div class="col-6 col-sm-4">
+             <div class="col-6 col-sm-4 col-lg-2">
                 <img class="img-fluid mb-3 box_rounded" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet-and-clank-thumb">
             </div>
        
-            <div class="col-6 col-sm-4">
+            <div class="col-6 col-sm-4 col-lg-2">
                 <img class="img-fluid mb-3 box_rounded" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="returnal-thumb">
             </div>
-            <div class="col-6 col-sm-4">
+            <div class="col-6 col-sm-4 col-lg-2">
                 <img class="img-fluid mb-3 box_rounded" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet-and-clank-thumb">
             </div>
-            <div class="col-6 col-sm-4">
+            <div class="col-6 col-sm-4 col-lg-2">
                 <img class="img-fluid mb-3 box_rounded" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="returnal-thumb">
             </div>
-            <div class="col-6 col-sm-4">
+            <div class="col-6 col-sm-4 col-lg-2">
                 <img class="img-fluid mb-3 box_rounded" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet-and-clank-thumb">
             </div>
         </div>
@@ -134,14 +186,6 @@
              <div class="col-12 col-md-6">
                 <img class="img-fluid" src="./img/playstation-5-thumb.png" alt="ps-5-thumb">
              </div>
-
-             <!-- <div class="col-12 col-md-6">
-                 
-             </div>
-
-             <div class="col-12 col-md-6">
-                
-             </div> -->
 
          </div>
      </section>
@@ -218,62 +262,62 @@
                 <span class="game_heading">Giochi incredibili per PS4 e PS5 disponibili ora</span>
             </div>
 
-            <div class="col-6 col-sm-4 mb-4">
+            <div class="col-6 col-sm-4 col-lg-2 mb-4">
                 <img class="img-fluid box_rounded" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="tony-hawk-game">
                 <span class="game_title mt-1">Tony Hawk's&trade; Pro Skater&trade; 1+2</span>
             </div>
 
-            <div class="col-6 col-sm-4 mb-5">
+            <div class="col-6 col-sm-4 col-lg-2 mb-5">
                 <img class="img-fluid box_rounded" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="crash-bandicoot-game">
                 <span class="game_title mt-1">Crash Bandicoot 4: It's About Time</span>
             </div>
 
-            <div class="col-6 col-sm-4 mb-5">
+            <div class="col-6 col-sm-4 col-lg-2 mb-5">
                 <img class="img-fluid box_rounded" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="tony-hawk-game">
                 <span class="game_title mt-1">Tony Hawk's&trade; Pro Skater&trade; 1+2</span>
             </div>
 
-            <div class="col-6 col-sm-4 mb-5">
+            <div class="col-6 col-sm-4 col-lg-2 mb-5">
                 <img class="img-fluid box_rounded" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="crash-bandicoot-game">
                 <span class="game_title mt-1">Crash Bandicoot 4: It's About Time</span>
             </div>
 
-            <div class="col-6 col-sm-4 mb-5">
+            <div class="col-6 col-sm-4 col-lg-2 mb-5">
                 <img class="img-fluid box_rounded" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="tony-hawk-game">
                 <span class="game_title mt-1">Tony Hawk's&trade; Pro Skater&trade; 1+2</span>
             </div>
 
-            <div class="col-6 col-sm-4 mb-5">
+            <div class="col-6 col-sm-4 col-lg-2 mb-5">
                 <img class="img-fluid box_rounded" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="crash-bandicoot-game">
                 <span class="game_title mt-1">Crash Bandicoot 4: It's About Time</span>
             </div>
 
-            <div class="col-6 col-sm-4 mb-5">
+            <div class="col-6 col-sm-4 col-lg-2 mb-5">
                 <img class="img-fluid box_rounded" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="tony-hawk-game">
                 <span class="game_title mt-1">Tony Hawk's&trade; Pro Skater&trade; 1+2</span>
             </div>
 
-            <div class="col-6 col-sm-4 mb-5">
+            <div class="col-6 col-sm-4 col-lg-2 mb-5">
                 <img class="img-fluid box_rounded" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="crash-bandicoot-game">
                 <span class="game_title mt-1">Crash Bandicoot 4: It's About Time</span>
             </div>
 
-            <div class="col-6 col-sm-4 mb-5">
+            <div class="col-6 col-sm-4 col-lg-2 mb-5">
                 <img class="img-fluid box_rounded" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="tony-hawk-game">
                 <span class="game_title mt-1">Tony Hawk's&trade; Pro Skater&trade; 1+2</span>
             </div>
 
-            <div class="col-6 col-sm-4 mb-5">
+            <div class="col-6 col-sm-4 col-lg-2 mb-5">
                 <img class="img-fluid box_rounded" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="crash-bandicoot-game">
                 <span class="game_title mt-1">Crash Bandicoot 4: It's About Time</span>
             </div>
 
-            <div class="col-6 col-sm-4 mb-5">
+            <div class="col-6 col-sm-4 col-lg-2 mb-5">
                 <img class="img-fluid box_rounded" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="tony-hawk-game">
                 <span class="game_title mt-1">Tony Hawk's&trade; Pro Skater&trade; 1+2</span>
             </div>
 
-            <div class="col-6 col-sm-4 mb-5">
+            <div class="col-6 col-sm-4 col-lg-2 mb-5">
                 <img class="img-fluid box_rounded" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="crash-bandicoot-game">
                 <span class="game_title mt-1">Crash Bandicoot 4: It's About Time</span>
             </div>
@@ -407,7 +451,7 @@
             </div>
 
             <div class="col-md-6">
-                <img class="img-fluid" src="./img/ps-now-april-featured-image-block.png" alt="april-ps-games">
+                <img class="img-fluid d-none d-sm-block" src="./img/ps-now-april-featured-image-block.png" alt="april-ps-games">
             </div>
 
         </div>
