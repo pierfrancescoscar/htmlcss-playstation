@@ -75,14 +75,20 @@ body {
 
 .ps_orange_button:hover {
     background-color: #cd3d0f;
+    outline: 1px solid #cd3d0f;
+    outline-offset: 3px;
 }
 
 .ps_blue_button:hover {
     background: #2d64e7;
+    outline: 1px solid #2d64e7;
+    outline-offset: 3px;
 }
 
 .ps_white_button:hover {
     pointer-events: none;
+    outline: 1px solid #2d64e7;
+    outline-offset: 3px;
 
 }
 
