@@ -141,6 +141,10 @@ header {
     color: #a3a3a3;
 }
 
+.main_menu .navbar-light .navbar-nav .my_ps {
+    padding-right: 2rem;
+}
+
 /* Hero */
 .hero {
     background-image: url('../img/jumbo-bg.png');
